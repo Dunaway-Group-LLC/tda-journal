@@ -1,0 +1,21 @@
+"""
+Wrapper class for Sqlite3 db.
+
+A bit longer description.
+
+Args:
+    variable (type): description
+
+Returns:
+    type: description
+
+Raises:
+    Exception: description
+
+"""
+
+class SqlLiteDB:
+  path: str
+
+  def __init__(self, path):
+    self.path = path

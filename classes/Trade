@@ -1,0 +1,23 @@
+"""
+Trade - class to contain option trade.
+
+Contains all the information about 1 trade.
+Created from data retrieved through TOS API
+
+Args:
+    variable (type): description
+
+Returns:
+    type: description
+
+Raises:
+    Exception: description
+
+"""
+from dataclasses import dataclass
+
+@dataclass
+class Trade:
+  entryTime: datetime
+  symbol: str
+  type: str
